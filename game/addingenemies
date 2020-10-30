@@ -1,0 +1,78 @@
+        if ((mvmt7x <= 214) && (corner7 == 0)) {
+            mvmt7x = mvmt7x + 2;
+        }
+        if ((mvmt7x >= 213) && (corner7 == 0)) {
+            corner7 = 1;
+        }
+        if ((corner7 == 1) && (mvmt7y <= 165)) {
+            mvmt7y = mvmt7y + 2;
+        }
+        if ((corner7 == 1) && (mvmt7y >= 164)) {
+            corner7 = 2;
+        }
+        if ((corner7 == 2) && (mvmt7x >= 64)) {
+            mvmt7x = mvmt7x - 2;
+        }
+        if ((corner7 == 2) && (mvmt7x <= 65)) {
+            corner7 = 3;
+        }
+        if((corner7 == 3) && (mvmt7y <= 311)){
+            mvmt7y = mvmt7y + 2;
+        }
+        if((corner7 == 3) && (mvmt7y >= 310)){
+            corner7 = 4;
+        }
+        if((corner7 == 4) && (mvmt7x <= 336)) {
+            mvmt7x = mvmt7x + 2;
+        }
+        if((corner7 == 4) && (mvmt7x >= 335)) {
+            corner7 = 5;
+        }
+        if((corner7 == 5) && (mvmt7y >= 44)) {
+            mvmt7y = mvmt7y - 2;
+        }
+        if((corner7 == 5) && (mvmt7y <= 45)) {
+            corner7 = 6;
+        }
+        if((corner7 == 6) && (mvmt7x <= 535)) {
+            mvmt7x = mvmt7x + 2;
+        }
+        if((corner7 == 6) && (mvmt7x >= 534)) {
+            corner7 = 7;
+        }
+        if((corner7 == 7) && (mvmt7y <= 316)) {
+            mvmt7y = mvmt7y + 2;
+        }
+        if((corner7 == 7) && (mvmt7y >= 315)) {
+            corner7 = 8;
+        }
+        if((corner7 == 8) && (mvmt7x <= 706)) {
+            mvmt7x = mvmt7x + 2;
+        }
+        if((corner7 == 8) && (mvmt7x >= 705)) {
+            corner7 = 9;
+        }
+        if((corner7 == 9) && (mvmt7y >= 66)) {
+            mvmt7y = mvmt7y - 2;
+        }
+        if((corner7 == 9) && (mvmt7y <= 65)) {
+            corner7 = 10;
+        }
+        if((corner7 == 10) && (mvmt7x <= 756)) {
+            mvmt7x = mvmt7x + 2;
+        }
+        if((corner7 == 10) && (mvmt7x >= 755)) {
+            corner7 = 11;
+        }
+        if((corner7 == 11) && (mvmt7y <= 436)) {
+            mvmt7y = mvmt7y + 2;
+        }
+        if((corner7 == 11) && (mvmt7y >= 435)) {
+            corner7 = 12;
+        }
+        if((corner7 == 12) && (mvmt7x >= 354)) {
+            mvmt7x = mvmt7x - 2;
+        }
+        if((corner7 == 12) && (mvmt7x <= 355)) {
+            corner7 = 13;
+        }
